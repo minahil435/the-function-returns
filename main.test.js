@@ -2,9 +2,30 @@
  * YOUR CODE HERE *
  ******************/
 
+let greeting = 'Hello';
+let sum = 0;
+let prod = 0
 
+function greet(thisString) { greeting = 'Hello' + ' ' + thisString }
+function sumOfTwo(firstNumber, secondNumber) { sum = firstNumber + secondNumber }
+function multiply(firstNumber, secondNumber, thirdNumber) { prod = firstNumber * secondNumber * thirdNumber }
 
+function sayHi(nameString) {
+  return 'Hello ' + nameString + '!';
+}
 
+function returnWhatISay(SentenceString) {
+  return SentenceString;
+}
+
+function divide(firstNumber, secondNumber) {
+  return firstNumber / secondNumber;
+
+}
+function remainder(firstNumber, secondNumber) {
+  return firstNumber % secondNumber;
+
+}
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
